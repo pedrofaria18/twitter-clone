@@ -3,8 +3,6 @@ import styled, { css } from 'styled-components';
 import { LocationOn, Cake, CalendarToday} from '../../styles/Icons';
 import Button from '../Button';
 
-import Perfil from './assets/perfil.jpg';
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,14 +23,15 @@ export const Banner = styled.div`
 `;
 
 export const Avatar = styled.div`
+img {
   width: max(45px, min(135px, 22vw));
   height: max(45px, min(135px, 22vw));
   border: 3.75px solid var(--primary);
-  background-image: url("https://twitter.com/pedrfaria18/photo");
   border-radius: 50%; 
   position: absolute; 
   bottom: max(-60px, -10vw);
   left: 15px;
+}
 `;
 
 export const ProfileData = styled.div`
