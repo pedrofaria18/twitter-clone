@@ -1,5 +1,9 @@
 import React from 'react';
 
+import ODB from '../../assets/odb.jpg';
+
+import TweetODB from '../../assets/djonga.jpg';
+
 import {
     Container,
     Retweeted,
@@ -26,20 +30,24 @@ const Tweet: React.FC = () => {
               Você retweetou
           </Retweeted>
           <Body>
-              <Avatar />
+              <Avatar>
+                  <img src={ODB} alt=""/>
+              </ Avatar>
               
               <Content>
                   <Header>
-                      <strong>Rocketseat</strong>
-                      <span>@rocketseat</span>
+                      <strong>Ol'Darth Bástarde</strong>
+                      <span>@oldarthbastarde</span>
                       <Dot />
                       <time>24 de jul</time>
                   </Header>
 
                   {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-                  <Description>Foguete não tem ré 🚀</Description>
+                  <Description>PRIMEIRA CHAMADA DOS DORME NUNCA<br></br> <br></br>quem tiver acordado digite qualquer emoji</Description>
                   
-                  <ImageContent />
+                  <ImageContent>
+                      <img src={TweetODB} alt=""/>
+                  </ImageContent>
 
                   <Icons>
                       <Status>

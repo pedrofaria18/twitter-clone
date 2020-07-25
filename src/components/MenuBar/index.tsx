@@ -2,6 +2,8 @@ import React from 'react';
 
 import Button from '../Button';
 
+import Perfil from '../../assets/perfil.jpg';
+
 import { Container, Topside, Logo, MenuButton, HomeIcon, HashtagIcon, BellIcon, EmailIcon, BookmarkIcon, ListIcon, ProfileIcon, MoreIcon, Botside, Avatar, ProfileData, ExitIcon} from './styles';
 
 const MenuBar: React.FC = () => {
@@ -57,7 +59,9 @@ const MenuBar: React.FC = () => {
         </Topside>
 
         <Botside>
-            <Avatar />
+            <Avatar>
+                <img src={Perfil} alt=""/>
+            </Avatar>
 
             <ProfileData>
                 <strong>Faria</strong>

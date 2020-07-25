@@ -2,9 +2,9 @@ import React from 'react';
 
 import Feed from '../Feed';
 
-import Perfil from './assets/perfil.jpg';
+import Perfil from '../../assets/perfil.jpg';
 
-import Fundo from './assets/banner.jpg';
+import Fundo from '../../assets/banner.jpg';
 
 import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, TimeIcon, Followage, EditButton } from './styles';
 
